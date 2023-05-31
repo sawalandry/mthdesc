@@ -6,7 +6,7 @@ import { Aboutus, Packages } from "../../components"
 
 const AboutUs = () => {
   return (
-    <div>
+    <>
         <div className="container-fluid page-header mb-5 p-0 bg-dark" style={{ backgroundImage: "url(../../assets/image/notes/mth18.jpg)" }}>
             <div className="container-fluid page-fluid-inner py-5">
                 <div className="container text-center pb-5">
@@ -24,7 +24,7 @@ const AboutUs = () => {
         <Book />
         <Aboutus />
         <Packages />
-    </div>
+    </>
   )
 }
 

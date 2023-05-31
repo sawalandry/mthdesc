@@ -5,7 +5,8 @@ import { Link } from "react-router-dom"
 const History = () => {
   return (
     <>
-      <div className="container-xxl py-5 px-0 wow zoomIn">
+      {/* <div className="container-xxl py-5 px-0 wow zoomIn"> */}
+      <div className="container-xxl py-5 px-0">
         <div className="row g-0">
           <div className="col-md-6 bg-dark d-flex justify-content-center">
             <div className="p-5">

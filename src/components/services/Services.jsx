@@ -34,7 +34,8 @@ const Services = () => {
     <>
       <div className="container-xxl py-5" id='services'>
         <div className="container">
-          <div className="text-center wow fadeInUp" data-wow-delay='0.1s'>
+          {/* <div className="text-center wow fadeInUp" data-wow-delay='0.1s'> */}
+          <div className="text-center" >
             <h6 className="section-title text-center text-primary teext-uppercase">Our Rooms</h6>
             <h1 className="mb-5">
               Explore Our {' '}
@@ -44,7 +45,8 @@ const Services = () => {
           <div className="row g-4">
             {
               roomData.map((item, index)=> (
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay={item.dataWow} key={index}>
+                // <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay={item.dataWow} key={index}>
+                <div className="col-lg-4 col-md-6" key={index}>
                   <div className="room-item shadow rounded overflow-hidden">
                     <div className="position-relative">
                       <img src={item.imgUrl} alt="room-1" className="img-fluid" />

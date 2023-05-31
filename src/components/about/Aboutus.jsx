@@ -23,7 +23,8 @@ const Aboutus = () => {
                 But remember that you will drink for your responsability.
               </p>
               <div className="row g-3 pb-4">
-                <div className="col-sm-4 wow fadeIn" data-wow-delay='0.1s'>
+                {/* <div className="col-sm-4 wow fadeIn" data-wow-delay='0.1s'> */}
+                <div className="col-sm-4" >
                   <div className="border rounded p-1">
                     <div className="border rounded text-center p-4">
                       <i className="ri-hotel-fill text-primary mb-2" style={{ fontSize: '40px', fontWeight: '600' }}></i>
@@ -34,7 +35,8 @@ const Aboutus = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-4 wow fadeIn" data-wow-delay='0.3s'>
+                {/* <div className="col-sm-4 wow fadeIn" data-wow-delay='0.3s'> */}
+                <div className="col-sm-4">
                   <div className="border rounded p-1">
                     <div className="border rounded text-center p-4">
                       <i className="ri-group-fill text-primary mb-2" style={{ fontSize: '40px', fontWeight: '600' }}></i>
@@ -45,7 +47,8 @@ const Aboutus = () => {
                     </div>
                   </div>
                 </div>
-                <div className="col-sm-4 wow fadeIn" data-wow-delay='0.1s'>
+                {/* <div className="col-sm-4 wow fadeIn" data-wow-delay='0.1s'> */}
+                <div className="col-sm-4">
                   <div className="border rounded p-1">
                     <div className="border rounded text-center p-4">
                       <i className="ri-customer-service-fill text-primary mb-2" style={{ fontSize: '40px', fontWeight: '600' }}></i>
@@ -62,16 +65,20 @@ const Aboutus = () => {
             <div className="col-lg-6">
               <div className="row g-3">
                 <div className="col-6 text-end">
-                  <img src={img3} alt="pics1" className="img-fluid rounded w-75 wow zoomIn" data-wow-delay='0.1s' />
+                  {/* <img src={img3} alt="pics1" className="img-fluid rounded w-75 wow zoomIn" data-wow-delay='0.1s' /> */}
+                  <img src={img3} alt="pics1" className="img-fluid rounded w-75" />
                 </div>
                 <div className="col-6 text-start">
-                  <img src={img} alt="pic2" className="img-fluid rounded w-100 wow zoomIn" data-wow-delay='0.3s' />
+                  {/* <img src={img} alt="pic2" className="img-fluid rounded w-100 wow zoomIn" data-wow-delay='0.3s' /> */}
+                  <img src={img} alt="pic2" className="img-fluid rounded w-100" />
                 </div>
                 <div className="col-6 text-end">
-                  <img src={img1} alt="pics3" className="img-fluid rounded w-50 wow zoomIn" data-wow-delay='0.5s' />
+                  <img src={img1} alt="pics3" className="img-fluid rounded w-50"/>
+                  {/* <img src={img1} alt="pics3" className="img-fluid rounded w-50 wow zoomIn" data-wow-delay='0.5s' /> */}
                 </div>
                 <div className="col-6 text-start">
-                  <img src={img2} alt="pics4" className="img-fluid rounded wow w-75 zoomIn" data-wow-delay='0.7s' />
+                  {/* <img src={img2} alt="pics4" className="img-fluid rounded wow w-75 zoomIn" data-wow-delay='0.7s' /> */}
+                  <img src={img2} alt="pics4" className="img-fluid rounded w-75" />
                 </div>
               </div>
             </div>

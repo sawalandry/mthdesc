@@ -25,14 +25,16 @@ const Packages = () => {
     <>
       <div className="container-xxl py-5">
         <div className="container">
-          <div className="text-center wow fadeInUp">
+          {/* <div className="text-center wow fadeInUp"> */}
+          <div className="text-center">
             <h6 className="section-title text-center text-primary text-uppercase">Our services</h6>
             <h1 className="mb-5">Explore our <span className="text-primary text-uppercase">Services</span> </h1>
           </div>
           <div className="row g-4">
             {
               servicesData.map((item, index) => (
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay='0.1s' key={index}>
+                // <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay='0.1s' key={index}>
+                <div className="col-lg-4 col-md-6" key={index}>
                   <Link className="service-item rounded text-decoration-none" to='/'>
                     <div className="service-icon bg-transparent border rounded p-1">
                       <div className="w-100 h-100 border rounded d-flex align-items-center justify-content-center">

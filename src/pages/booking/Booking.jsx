@@ -28,7 +28,8 @@ const Booking = () => {
      <Book />
      <div className="container-xxl py-5">
       <div className="container">
-        <div className="text-center wow fadeInUp" data-wow-delay='0.1s'>
+        {/* <div className="text-center wow fadeInUp" data-wow-delay='0.1s'> */}
+        <div className="text-center" >
           <h6 className="section-title text-center text-primary text-uppercase">Room Booking</h6>
           <h1 className="mb-5">Book A <span className="text-primary text-uppercase">Luxury Room</span> </h1>
         </div>
@@ -50,7 +51,8 @@ const Booking = () => {
             </div>
           </div>
           <div className="col-lg 6">
-            <div className="wow fadeInUp" data-wow-delay='0.2s'>
+            {/* <div className="wow fadeInUp" data-wow-delay='0.2s'> */}
+            <div>
               <form>
                 <div className="row g-3">
                   <div className="col-md-6">

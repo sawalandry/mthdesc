@@ -1,13 +1,14 @@
 // import React from 'react'
-import WOW from 'wowjs';
+// import WOW from 'wowjs';
 
 const Book = () => {
-    new WOW.WOW({
-        live: false
-    }).init();
+    // new WOW.WOW({
+    //     live: false
+    // }).init();
   return (
     <div>
-        <div className="container-fluid booking pb-5 wow fadeIn" data-wow-delay='0.1s'>
+        {/* <div className="container-fluid booking pb-5 wow fadeIn" data-wow-delay='0.1s'> */}
+        <div className="container-fluid booking pb-5" >
             <div className="container">
                 <div className="bg-white shadow" style={{padding:'35px'}}>
                     <div className="row g-2">
