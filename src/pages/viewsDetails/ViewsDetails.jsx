@@ -1,4 +1,6 @@
-import React from 'react'
+// import React from 'react'
+
+import { Link } from "react-router-dom"
 
 const ViewsDetails = () => {
   return (
@@ -9,7 +11,7 @@ const ViewsDetails = () => {
                 <h1 className="display-3 text-white mb-3 aniamted slideInDown">Booking</h1>
                 <nav aria-label='breadcrumb'>
                     <ol className="breadcrumb justify-content-center text-uppercase">
-                    <li className="breadcrumb-item"><a href="/" className='text-decoration-none'>Home</a> </li>
+                    <li className="breadcrumb-item"><Link href="/" className='text-decoration-none'>Home</Link> </li>
                     <li className="breadcrumb-item"><Link to="/rooms" className='text-decoration-none'>Rooms</Link> </li>
                     <li className="breadcrumb-item text-white active">Booking</li>
                     </ol>
