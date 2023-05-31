@@ -26,7 +26,7 @@ const Footer = () => {
             <div className="col-md-6 col-lg-3">
               <h6 className="section-title text-start text-primary text-uppercase mb-4">Contact</h6>
               <p className="mb-2"><i className="ri-map-pin-2-fill me-3"></i>RN3 street, Rumonge, Bdi</p>
-              <p className="mb-2"><i className="ri-phone-fill me-3"></i>+012 345 67890</p>
+              <p className="mb-2"><i className="ri-phone-fill me-3"></i>+257 79728977</p>
               <p className="mb-2"><i className="ri-mail-fill me-3"></i>murethotelsupport@gmail.com</p>
               <div className="d-flex pt-2">
                 <Link to="/" className="me-3 text-decoration-none"><i className="ri-facebook-circle-fill text-white"></i></Link>
