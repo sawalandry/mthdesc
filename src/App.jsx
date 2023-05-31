@@ -13,6 +13,7 @@ import Booking from './pages/booking/Booking';
 import RoomsB from './pages/rooms/RoomsB';
 import Contact from './pages/contact/Contact';
 import AboutUs from './pages/aboutus/AboutUs';
+import ViewsDetails from './pages/viewsDetails/ViewsDetails';
 // import BackupButton from './components/button/BackupButton';
 
 const Layout = () => {
@@ -50,6 +51,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <AboutUs />
+      },
+      {
+        path: '/viewsDetails',
+        element: <ViewsDetails/>
       },
     ]
   },

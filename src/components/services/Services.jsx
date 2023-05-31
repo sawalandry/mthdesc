@@ -78,8 +78,8 @@ const Services = () => {
                         {item.desc}
                       </p>
                       <div className="d-flex justify-content-between">
-                        <Link to='/' className="btn btn-sm btn-primary rounded py-2 px-4">View Detail</Link>
-                        <Link to='/' className="btn btn-sm btn-dark rounded py-2 px-4">Book Now</Link>
+                        <Link to='/viewsDetails' className="btn btn-sm btn-primary rounded py-2 px-4">View Detail</Link>
+                        <Link to='/booking' className="btn btn-sm btn-dark rounded py-2 px-4">Book Now</Link>
                       </div>
                     </div>
                   </div>
