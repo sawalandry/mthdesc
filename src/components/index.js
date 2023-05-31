@@ -1,0 +1,7 @@
+export { default as Hero } from './hero/Hero'
+export { default as Aboutus } from './about/Aboutus'
+export { default as Services } from './services/Services'
+export { default as History } from './history/History'
+export { default as Photogallery } from './testimonial/Testimonials'
+export { default as Packages } from './package/Packages'
+export { default as Newsletter } from './newsletter/Newsletter'
