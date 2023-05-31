@@ -4,6 +4,7 @@ import img2 from '../../assets/image/img9.jpg';
 import img3 from '../../assets/image/img10.jpg';
 import Slider from "react-slick";
 import Book from './Book';
+import { Link } from 'react-router-dom';
 
 const carouselData = [
   {
@@ -47,8 +48,8 @@ const Hero = () => {
                         <div className="p-3" style={{maxWidth:'900px'}}>
                           <h6 className="section-title text-white text-uppecase mb-3 animated slideInDown">{item.title}</h6>
                           <h1 className="display-3 text-white mb-4 animated slideInDown">{item.desc}</h1>
-                          <a href="/rooms" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</a>
-                          <a href="/booking" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</a>
+                          <Link to="/rooms" className="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Our Rooms</Link>
+                          <Link to="/booking" className="btn btn-light py-md-3 px-md-5 animated slideInRight">Book A Room</Link>
                         </div>
                       </div>
                     </div>
